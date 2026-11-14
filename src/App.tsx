@@ -49,7 +49,7 @@ function App() {
           <a href="#work" onClick={closeMenu}>Selected work</a>
           <a href="#studio" onClick={closeMenu}>Studio</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
-          <a className="nav-cta" href="mailto:hello@aliciatesch.com">Get in touch <ArrowUpRight size={14} /></a>
+          <a className="nav-cta" href="#contact">Get in touch <ArrowUpRight size={14} /></a>
         </nav>
       </header>
 
@@ -60,7 +60,7 @@ function App() {
             <div className="hero-copy">
               <p className="eyebrow">HELLO, I'M ALICIA</p>
               <h1>Business-minded.<br /><em>Curious by design.</em><br />Building what’s next.</h1>
-              <p className="hero-intro">I’m an Management Information Systems student interested in the space where technology, business, and creative thinking meet. I turn questions into ideas, and ideas into things people can use.</p>
+              <p className="hero-intro">I’m a Management Information Systems student interested in the space where technology, business, and creative thinking meet. I turn questions into ideas, and ideas into things people can use.</p>
               <div className="hero-actions">
                 <a className="button button-dark" href="#work">Explore my work <ArrowUpRight size={16} /></a>
                 <a className="text-link" href="#about">A little about me <ArrowDownRight size={16} /></a>
